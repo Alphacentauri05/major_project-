@@ -138,7 +138,7 @@ except Exception as exc:
 # ROOT ENDPOINT
 # ============================================================
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def root():
 
     return {
@@ -152,7 +152,7 @@ def root():
 # HEALTH CHECK
 # ============================================================
 
-@app.get("/health")
+@app.api_route("/health", methods=["GET", "HEAD"])
 def health_check():
 
     data_loaded = all(

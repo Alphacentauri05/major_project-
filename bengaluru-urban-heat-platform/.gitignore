@@ -97,7 +97,5 @@ models/*.pth
 reports/generated/
 
 # ==============================
-# Generated Analysis Outputs
-# ==============================
-
-data/outputs/
+# Generated Analysis Outputs - keep essential analytics CSVs, ignore generated PDFs
+data/outputs/reports/

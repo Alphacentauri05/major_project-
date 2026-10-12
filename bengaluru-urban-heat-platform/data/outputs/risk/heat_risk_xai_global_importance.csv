@@ -1,0 +1,12 @@
+feature,mean_abs_shap,importance_pct
+historical_heat_pocket_coverage_pct,1.0668938,37.80213
+month_cos,0.47534,16.842224
+heat_pocket_coverage_pct,0.35697654,12.6483755
+mean_lst_celsius,0.2952687,10.4619465
+mean_ndwi,0.14978309,5.307107
+previous_lst_celsius,0.11906569,4.2187295
+mean_ndbi,0.107845314,3.8211699
+previous_heat_pocket_coverage_pct,0.08976404,3.1805153
+mean_ndvi,0.080819726,2.8636007
+days_since_previous_observation,0.06688757,2.3699572
+month_sin,0.013666869,0.48424384

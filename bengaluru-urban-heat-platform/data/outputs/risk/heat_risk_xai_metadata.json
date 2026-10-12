@@ -1,0 +1,21 @@
+{
+    "model_type": "XGBoost binary classifier",
+    "target": "high_heat_next",
+    "observation_date": "2026-05-03",
+    "wards_explained": 368,
+    "explanation_method": "SHAP TreeExplainer",
+    "model_probability_explained": true,
+    "features": [
+        "mean_lst_celsius",
+        "previous_lst_celsius",
+        "mean_ndvi",
+        "mean_ndbi",
+        "mean_ndwi",
+        "heat_pocket_coverage_pct",
+        "previous_heat_pocket_coverage_pct",
+        "historical_heat_pocket_coverage_pct",
+        "days_since_previous_observation",
+        "month_sin",
+        "month_cos"
+    ]
+}

@@ -1,0 +1,12 @@
+metric,value
+wards_analyzed,369.0
+fdr_significant_increasing_lst_wards,0.0
+fdr_significant_decreasing_lst_wards,0.0
+stable_uncertain_lst_wards,369.0
+fdr_significant_increasing_heat_pocket_wards,7.0
+fdr_significant_decreasing_heat_pocket_wards,9.0
+stable_uncertain_heat_pocket_wards,353.0
+mean_adjusted_lst_trend_celsius_per_year,0.08286137435945737
+median_adjusted_lst_trend_celsius_per_year,0.0885297136889498
+mean_adjusted_heat_pocket_trend_pct_points_per_year,-0.027864253326140922
+median_adjusted_heat_pocket_trend_pct_points_per_year,-0.007416218923574144
