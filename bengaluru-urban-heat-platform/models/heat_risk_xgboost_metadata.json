@@ -1,0 +1,51 @@
+{
+    "model_type": "XGBoost binary classifier",
+    "target": "high_heat_next",
+    "target_source": "next_heat_pocket_coverage_pct",
+    "high_heat_percentile": 80,
+    "target_threshold_heat_pocket_coverage_pct": 4.186993623338435,
+    "decision_threshold": 0.3899999999999999,
+    "decision_threshold_optimization": "Validation-set F1 maximization",
+    "features": [
+        "mean_lst_celsius",
+        "previous_lst_celsius",
+        "mean_ndvi",
+        "mean_ndbi",
+        "mean_ndwi",
+        "heat_pocket_coverage_pct",
+        "previous_heat_pocket_coverage_pct",
+        "historical_heat_pocket_coverage_pct",
+        "days_since_previous_observation",
+        "month_sin",
+        "month_cos"
+    ],
+    "training_start": "2016-03-20",
+    "training_end": "2022-06-09",
+    "development_start": "2016-03-20",
+    "development_end": "2024-09-18",
+    "final_test_start": "2024-10-28",
+    "final_test_end": "2026-04-01",
+    "xgboost_parameters": {
+        "n_estimators": 400,
+        "learning_rate": 0.03,
+        "max_depth": 4,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 2.0,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "device": "cuda",
+        "random_state": 42
+    },
+    "final_test_metrics": {
+        "accuracy": 0.8379570090023883,
+        "precision": 0.6021314387211367,
+        "recall": 0.6097122302158273,
+        "f1": 0.6058981233243967,
+        "roc_auc": 0.8905103578185709,
+        "pr_auc": 0.6546840258746107
+    }
+}
