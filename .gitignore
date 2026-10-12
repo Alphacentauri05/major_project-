@@ -21,6 +21,7 @@ dist-ssr/
 .vinxi/
 .tanstack/**
 .nitro/
+.vercel/
 
 # Logs & temp
 *.log
